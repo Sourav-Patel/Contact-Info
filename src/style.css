@@ -1,0 +1,42 @@
+*{
+    color: solid black;
+}
+div{
+    border: 5px solid;
+}
+
+form{
+    margin: 1px;
+    width: 400px;
+    padding :2em;
+    border: 1px solid black;
+	border-radius: 1em;
+}
+#a{
+    margin-top: 10px;
+}
+body{
+    background-color: aqua;
+}
+div.button{
+    padding: 5px;
+    font-size: 20pt;
+    width: 102px;
+    color: whitesmoke;
+    margin: 20px;
+    background-color: peru;
+    box-shadow: grey 10px 10px 10px;
+    transition: 0.8s;
+    border-radius: 5px;
+
+}
+div.button:hover{
+    background-color: purple;
+    transition: 0.5s;
+}
+div.button:active{
+    background-color: red;
+    box-shadow: grey 0 5px 5px;
+    transform: translateY(4px);
+    transition: 0.25s;
+}
